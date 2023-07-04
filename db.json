@@ -69,7 +69,7 @@
       "id": 1,
       "name": "Sandwich de jamón y queso",
       "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/sandwich.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
@@ -77,7 +77,7 @@
       "id": 2,
       "name": "Café americano",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/cafe-americano.png",
       "type": "Desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
@@ -85,9 +85,72 @@
       "id": 3,
       "name": "Agua 500ml",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/agua500.png",
       "type": "Almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "name": "Jugo de frutas natural",
+      "price": 700,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/jugo-fruta.png",
+      "type": "Desayuno",
+      "id": 4
+    },
+    {
+      "name": "Hamburguesa sencilla",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/hamburguesa-sencilla.png",
+      "type": "Almuerzo",
+      "id": 5
+    },
+    {
+      "name": "Hamburguesa doble",
+      "price": 1500,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/hamburguesa-doble.png",
+      "type": "Almuerzo",
+      "id": 6
+    },
+    {
+      "name": "Papas fritas",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/papas-fritas.png",
+      "type": "Almuerzo",
+      "id": 7
+    },
+    {
+      "name": "Aros de cebolla",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/aros-cebolla.png",
+      "type": "Almuerzo",
+      "id": 8
+    },
+    {
+      "name": "Agua 750ml",
+      "price": 700,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/agua750.png",
+      "type": "Almuerzo",
+      "id": 9
+    },
+    {
+      "name": "Gaseosa 500ml",
+      "price": 700,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/gaseosa500.png",
+      "type": "Almuerzo",
+      "id": 10
+    },
+    {
+      "name": "Gaseosa 750ml",
+      "price": 1000,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/gaseosa750.png",
+      "type": "Almuerzo",
+      "id": 11
+    },
+    {
+      "name": "Café con leche",
+      "price": 700,
+      "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/latte.png",
+      "type": "Desayuno",
+      "id": 12
     }
   ],
   "users": [
@@ -102,6 +165,12 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "waiter@gmail.com",
+      "password": "$2a$10$pXwoUZk54IXBFxpUEehqY.L9NkAxfde3ihf6gfbn5Q0d8Fg1AVC16",
+      "role": "waiter",
+      "id": 3
     }
   ]
 }

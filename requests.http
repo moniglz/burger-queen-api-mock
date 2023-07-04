@@ -6,13 +6,44 @@ content-type: application/json
     "password": "123456"
 }
 
+//USUARIOS
+
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODUxMzM4NSwiZXhwIjoxNjg4NTE2OTg1LCJzdWIiOiIyIn0.2YHf3hhMwXOO5tsyBxXxNB7gtsD88zE7KlplIXpL6-s
 
-GET http://localhost:8080/products HTTP/1.1
+
+POST http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODUwNTg1MSwiZXhwIjoxNjg4NTA5NDUxLCJzdWIiOiIyIn0.dt8v-mXfZ8nqS2t6RYMKj054XNO-EiqNZD0L4zLsuas
+
+{
+    "email": "waiter@gmail.com",
+    "password": "123456",
+    "role": "waiter"
+}
+
+
+//PRODUCTOS
+
+GET http://localhost:8080/products/2 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODUxMzA5OSwiZXhwIjoxNjg4NTE2Njk5LCJzdWIiOiIyIn0.-UKu4cKMR5DLxwrU2uhNw2NZ28uThcLolbbMxvuat8A
+
+PATCH http://localhost:8080/products/2 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODUxMzM4NSwiZXhwIjoxNjg4NTE2OTg1LCJzdWIiOiIyIn0.2YHf3hhMwXOO5tsyBxXxNB7gtsD88zE7KlplIXpL6-s
+
+{
+    "id": 2,
+    "name": "Café americano",
+    "price": 500,
+    "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/cafe-americano.png",
+    "type": "Desayuno"
+}
+
+
+//ORDENES
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
