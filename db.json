@@ -171,6 +171,18 @@
       "password": "$2a$10$pXwoUZk54IXBFxpUEehqY.L9NkAxfde3ihf6gfbn5Q0d8Fg1AVC16",
       "role": "waiter",
       "id": 3
+    },
+    {
+      "email": "monie.gop@gmail.com",
+      "password": "$2a$10$w5SiPUg36GV/0vz8kS73U.9KOkURKcfSxQZpsk34yRk.WTm4YVA7C",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$kRewkx1FUIVfUFe9TqdIMOCKYLFg0UoJ2HIrwl2jeOGPweJVHLJQC",
+      "id": 5,
+      "role": "admin"
     }
   ]
 }

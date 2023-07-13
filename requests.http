@@ -2,7 +2,7 @@ POST http://localhost:8080/login HTTP/1.1
 content-type: application/json
 
 {
-    "email": "grace.hopper@systers.xyz",
+    "email": "anita.borg@systers.xyz",
     "password": "123456"
 }
 
@@ -10,7 +10,7 @@ content-type: application/json
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODUxMzM4NSwiZXhwIjoxNjg4NTE2OTg1LCJzdWIiOiIyIn0.2YHf3hhMwXOO5tsyBxXxNB7gtsD88zE7KlplIXpL6-s
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1vbmllLmdvcEBnbWFpbC5jb20iLCJpYXQiOjE2ODkyMTQzNjksImV4cCI6MTY4OTIxNzk2OSwic3ViIjoiNCJ9.KcHIvUfQAvYSTfzX9H3BGDYoXQZoPuGvzIVIWxBY7p4
 
 
 POST http://localhost:8080/users HTTP/1.1
@@ -45,13 +45,13 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 
 //ORDENES
 
-GET http://localhost:8080/orders HTTP/1.1
+GET http://localhost:8080/orders/1 HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTAxNDg0NiwiZXhwIjoxNjg5MDE4NDQ2LCJzdWIiOiIyIn0.IAIBNajDVxcie8PcyBoW5OacnIlSsld1o6pF4QbORNg
 
 PATCH http://localhost:8080/orders/2 HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzNDAzNSwiZXhwIjoxNjUwMjM3NjM1LCJzdWIiOiIyIn0.q6lDwW_wyK6-8-lUyiLUwnoowRLsvuFblu1yufkaa_Q
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODYxMDc0OCwiZXhwIjoxNjg4NjE0MzQ4LCJzdWIiOiIyIn0.5hPmmjuw7f6droJVgMHfy8754GvTswAVOYQXdonfXKw
 
 {
     "status": "delivered",
