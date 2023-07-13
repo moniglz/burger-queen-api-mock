@@ -10,17 +10,17 @@ content-type: application/json
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1vbmllLmdvcEBnbWFpbC5jb20iLCJpYXQiOjE2ODkyMTQzNjksImV4cCI6MTY4OTIxNzk2OSwic3ViIjoiNCJ9.KcHIvUfQAvYSTfzX9H3BGDYoXQZoPuGvzIVIWxBY7p4
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2ODkyNzQyODQsImV4cCI6MTY4OTI3Nzg4NCwic3ViIjoiMSJ9.ppqnI2WyZc-R3IvHLqMnlx1r1MamoUzsy0O269Sonzc
 
 
 POST http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODUwNTg1MSwiZXhwIjoxNjg4NTA5NDUxLCJzdWIiOiIyIn0.dt8v-mXfZ8nqS2t6RYMKj054XNO-EiqNZD0L4zLsuas
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2ODkyNzQyODQsImV4cCI6MTY4OTI3Nzg4NCwic3ViIjoiMSJ9.ppqnI2WyZc-R3IvHLqMnlx1r1MamoUzsy0O269Sonzc
 
 {
-    "email": "waiter@gmail.com",
+    "email": "admin@burgerqueen.com",
     "password": "123456",
-    "role": "waiter"
+    "role": "admin"
 }
 
 

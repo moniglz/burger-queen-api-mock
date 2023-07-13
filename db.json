@@ -183,6 +183,12 @@
       "password": "$2a$10$kRewkx1FUIVfUFe9TqdIMOCKYLFg0UoJ2HIrwl2jeOGPweJVHLJQC",
       "id": 5,
       "role": "admin"
+    },
+    {
+      "email": "admin@burgerqueen.com",
+      "password": "$2a$10$/0nbp1kWRjhqsb6Mj7MAbecQOjyUP5ks6XT0v7chmpG9SUXwingTq",
+      "role": "admin",
+      "id": 6
     }
   ]
 }
