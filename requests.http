@@ -26,20 +26,16 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhL
 
 //PRODUCTOS
 
-GET http://localhost:8080/products/2 HTTP/1.1
+GET http://localhost:8080/products/ HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODUxMzA5OSwiZXhwIjoxNjg4NTE2Njk5LCJzdWIiOiIyIn0.-UKu4cKMR5DLxwrU2uhNw2NZ28uThcLolbbMxvuat8A
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2ODkzMDY5MDcsImV4cCI6MTY4OTMxMDUwNywic3ViIjoiMSJ9.yaisja3Kh8pygkQgiTnKhZHhlWVPqV0ZBklBrnQDXqc
 
-PATCH http://localhost:8080/products/2 HTTP/1.1
+PATCH http://localhost:8080/products/12 HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODUxMzM4NSwiZXhwIjoxNjg4NTE2OTg1LCJzdWIiOiIyIn0.2YHf3hhMwXOO5tsyBxXxNB7gtsD88zE7KlplIXpL6-s
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFuaXRhLmJvcmdAc3lzdGVycy54eXoiLCJpYXQiOjE2ODkzMDgxMzAsImV4cCI6MTY4OTMxMTczMCwic3ViIjoiMSJ9.4eXAcmU88AQ17Q-G9KMMgC8Y_PtWJ2KgkKYZaKAncFw
 
 {
-    "id": 2,
-    "name": "Café americano",
-    "price": 500,
-    "image": "https://raw.githubusercontent.com/marielfico/DEV005-burger-queen-api-client/moni2/burger%20queen/src/assets/img/products/cafe-americano.png",
-    "type": "Desayuno"
+  "image": "https://github.com/moniglz/DEV005-burger-queen-api-client/blob/main/burger%20queen/src/assets/img/products/latte.png?raw=true"
 }
 
 
